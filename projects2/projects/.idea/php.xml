@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/NETTE/vendor/composer" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/dg/adminer-custom" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/latte/latte" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/application" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/bootstrap" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/caching" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/component-model" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/database" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/di" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/forms" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/http" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/mail" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/neon" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/php-generator" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/reflection" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/safe-stream" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/security" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/tester" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/NETTE/vendor/tracy/tracy" />
+    </include_path>
+  </component>
+</project>

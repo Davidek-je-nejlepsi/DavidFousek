@@ -1,0 +1,12 @@
+<?php
+
+
+
+
+
+
+
+
+Final class Honzik {
+
+}
