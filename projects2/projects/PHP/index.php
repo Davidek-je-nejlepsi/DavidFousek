@@ -230,6 +230,8 @@ $auta["Nakladak"]["tatra"]["1"] = "asacasca";
 $auta["Nakladak"]["tatra"]["2"] = "adajdhajcha";
 echo $auta["Auto"]["skoda"]["2"];
 echo "<br><br><br><br><br>"; 
+
+include 'OOP.php';
 /*
 foreach ($pole as $value => $key) {
 	echo $key." - ".$value."<br>";
