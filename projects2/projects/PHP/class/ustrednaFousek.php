@@ -5,6 +5,8 @@
 /*
  * @author David Fousek
  */
+declare (strict_types=1);
+
 class ustrednaFousek extends ustrednyFousek{
     
     const TYPE = 1;  // konstanta se jednou nastaví a pak se nemění
