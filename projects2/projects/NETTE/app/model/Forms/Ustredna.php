@@ -42,7 +42,7 @@ class Ustredna extends \Nette\Application\UI\Form{
        
        $this->addCheckbox("Skladem","Vyprodáno");
        
-       $this->addCheckbox("Nákup","Velkoobchod");
+       $this->addCheckbox("Nakup","Velkoobchod");
        
        $this->addSubmit("Ulozit","Ulozit");
        
