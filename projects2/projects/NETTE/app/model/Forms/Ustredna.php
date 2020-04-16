@@ -21,32 +21,43 @@ class Ustredna extends \Nette\Application\UI\Form{
        
        $this->addGroup('Kontejner');
        
-       $this->addText ('Nazev_Ustredny','Název Ustredny' );
+       $this->addText ('Nazev_Ustredny','Název Ustredny' )->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addTextArea ("Popis_Ustredny","Popis Ustredny");
+       $this->addTextArea ("Popis_Ustredny","Popis Ustredny")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
        $this->addImage ("Obrazek","Obrazek");
        
-       $this->addText("cena_bez_DPH","cena bez DPH");
+       $this->addText("cena_bez_DPH","cena bez DPH")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addText("cena_s_DPH","cena s DPH");
+       $this->addText("cena_s_DPH","cena s DPH")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addText("cena_DPH","cena DPH");
+       $this->addText("cena_DPH","cena DPH")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
        $this->addSelect('Kategorie','Kategorie', array('Eldes','Jablotron','Texecom'))->setRequired('Nutný výběr')
               ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addText("Pocet_kusu","Pocet kusu");
+       $this->addText("Pocet_kusu","Pocet kusu")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addRadioList('Trida','Trida', array ('Prvni','Druha'));
+       $this->addRadioList('Trida','Trida', array ('Prvni','Druha'))->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addCheckbox("Skladem","Vyprodáno");
+       $this->addCheckbox("Skladem","Vyprodáno")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addCheckbox("Nakup","Velkoobchod");
+       $this->addCheckbox("Nakup","Velkoobchod")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addSubmit("Ulozit","Ulozit");
+       $this->addSubmit("Ulozit","Ulozit")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
-       $this->addPassword("Heslo", "Heslo");
+       $this->addPassword("Heslo", "Heslo")->setRequired('Nutný výběr')
+              ->addRule(\Nette\Forms\Form::REQUIRED,'Nutný výběr');
        
        $this->addUpload("zvuk","zvuk");
        
