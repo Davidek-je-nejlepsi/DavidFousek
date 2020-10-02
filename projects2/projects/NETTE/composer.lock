@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "e1e4cb849d64069b4f114bd090cb3b29",
     "content-hash": "5ab562fbddba2eba461bfdbe24d47d3e",
     "packages": [
         {
@@ -34,7 +33,7 @@
                 "postgresql",
                 "sqlite"
             ],
-            "time": "2018-06-29 10:30:14"
+            "time": "2018-06-29T10:30:14+00:00"
         },
         {
             "name": "latte/latte",
@@ -106,27 +105,27 @@
                 "template",
                 "twig"
             ],
-            "time": "2018-06-03 17:34:15"
+            "time": "2018-06-03T17:34:15+00:00"
         },
         {
             "name": "nette/application",
-            "version": "v2.4.12",
+            "version": "v2.4.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/application.git",
-                "reference": "fe1915f880d8e5d16217bad467950733fd5cbad3"
+                "reference": "e32c04de211873c792d13d9a00c50083b8e05a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/application/zipball/fe1915f880d8e5d16217bad467950733fd5cbad3",
-                "reference": "fe1915f880d8e5d16217bad467950733fd5cbad3",
+                "url": "https://api.github.com/repos/nette/application/zipball/e32c04de211873c792d13d9a00c50083b8e05a23",
+                "reference": "e32c04de211873c792d13d9a00c50083b8e05a23",
                 "shasum": ""
             },
             "require": {
                 "nette/component-model": "^2.3",
                 "nette/http": "^2.2",
                 "nette/reflection": "^2.2",
-                "nette/utils": "^2.4 || ~3.0.0",
+                "nette/utils": "^2.4",
                 "php": ">=5.6.0"
             },
             "conflict": {
@@ -137,8 +136,8 @@
             },
             "require-dev": {
                 "latte/latte": "^2.4.3",
-                "mockery/mockery": "^0.9.5",
-                "nette/di": "^2.4 || ~3.0.0",
+                "mockery/mockery": "^1.0",
+                "nette/di": "^2.4",
                 "nette/forms": "^2.4",
                 "nette/robot-loader": "^2.4.2 || ^3.0",
                 "nette/security": "^2.4",
@@ -158,9 +157,6 @@
             "autoload": {
                 "classmap": [
                     "src/"
-                ],
-                "files": [
-                    "src/compatibility.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -193,7 +189,7 @@
                 "routing",
                 "seo"
             ],
-            "time": "2018-05-16 09:28:51"
+            "time": "2020-08-25T01:51:49+00:00"
         },
         {
             "name": "nette/bootstrap",
@@ -262,14 +258,14 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🅱 Nette Bootstrap: the simple way to configure and bootstrap your Nette application.",
+            "description": "? Nette Bootstrap: the simple way to configure and bootstrap your Nette application.",
             "homepage": "https://nette.org",
             "keywords": [
                 "bootstrapping",
                 "configurator",
                 "nette"
             ],
-            "time": "2018-05-17 12:52:20"
+            "time": "2018-05-17T12:52:20+00:00"
         },
         {
             "name": "nette/caching",
@@ -338,7 +334,7 @@
                 "nette",
                 "sqlite"
             ],
-            "time": "2018-03-21 11:04:32"
+            "time": "2018-03-21T11:04:32+00:00"
         },
         {
             "name": "nette/component-model",
@@ -399,7 +395,7 @@
                 "components",
                 "nette"
             ],
-            "time": "2018-03-20 16:32:50"
+            "time": "2018-03-20T16:32:50+00:00"
         },
         {
             "name": "nette/database",
@@ -457,7 +453,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "💾 Nette Database: layer with a familiar PDO-like API but much more powerful. Building queries, advanced joins, drivers for MySQL, PostgreSQL, SQLite, MS SQL Server and Oracle.",
+            "description": "? Nette Database: layer with a familiar PDO-like API but much more powerful. Building queries, advanced joins, drivers for MySQL, PostgreSQL, SQLite, MS SQL Server and Oracle.",
             "homepage": "https://nette.org",
             "keywords": [
                 "database",
@@ -471,7 +467,7 @@
                 "queries",
                 "sqlite"
             ],
-            "time": "2018-06-01 15:50:27"
+            "time": "2018-06-01T15:50:27+00:00"
         },
         {
             "name": "nette/di",
@@ -529,7 +525,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "💎 Nette Dependency Injection Container: Flexible, compiled and full-featured DIC with perfectly usable autowiring and support for all new PHP 7.1 features.",
+            "description": "? Nette Dependency Injection Container: Flexible, compiled and full-featured DIC with perfectly usable autowiring and support for all new PHP 7.1 features.",
             "homepage": "https://nette.org",
             "keywords": [
                 "compiled",
@@ -540,7 +536,7 @@
                 "nette",
                 "static"
             ],
-            "time": "2018-09-17 15:47:40"
+            "time": "2018-09-17T15:47:40+00:00"
         },
         {
             "name": "nette/finder",
@@ -594,7 +590,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🔍 Nette Finder: find files and directories with an intuitive API.",
+            "description": "? Nette Finder: find files and directories with an intuitive API.",
             "homepage": "https://nette.org",
             "keywords": [
                 "filesystem",
@@ -602,7 +598,7 @@
                 "iterator",
                 "nette"
             ],
-            "time": "2018-06-28 11:49:23"
+            "time": "2018-06-28T11:49:23+00:00"
         },
         {
             "name": "nette/forms",
@@ -670,7 +666,7 @@
                 "nette",
                 "validation"
             ],
-            "time": "2018-09-16 18:32:29"
+            "time": "2018-09-16T18:32:29+00:00"
         },
         {
             "name": "nette/http",
@@ -729,7 +725,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🌐 Nette Http: abstraction for HTTP request, response and session. Provides careful data sanitization and utility for URL and cookies manipulation.",
+            "description": "? Nette Http: abstraction for HTTP request, response and session. Provides careful data sanitization and utility for URL and cookies manipulation.",
             "homepage": "https://nette.org",
             "keywords": [
                 "cookies",
@@ -742,7 +738,7 @@
                 "session",
                 "url"
             ],
-            "time": "2018-09-03 19:16:55"
+            "time": "2018-09-03T19:16:55+00:00"
         },
         {
             "name": "nette/mail",
@@ -801,7 +797,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "📧 Nette Mail: handy email creation and transfer library for PHP with both text and MIME-compliant support.",
+            "description": "? Nette Mail: handy email creation and transfer library for PHP with both text and MIME-compliant support.",
             "homepage": "https://nette.org",
             "keywords": [
                 "mail",
@@ -810,7 +806,7 @@
                 "nette",
                 "smtp"
             ],
-            "time": "2018-03-18 16:30:02"
+            "time": "2018-03-18T16:30:02+00:00"
         },
         {
             "name": "nette/neon",
@@ -862,7 +858,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🍸 Nette NEON: encodes and decodes NEON file format.",
+            "description": "? Nette NEON: encodes and decodes NEON file format.",
             "homepage": "http://ne-on.org",
             "keywords": [
                 "export",
@@ -871,7 +867,7 @@
                 "nette",
                 "yaml"
             ],
-            "time": "2018-03-21 12:12:21"
+            "time": "2018-03-21T12:12:21+00:00"
         },
         {
             "name": "nette/php-generator",
@@ -925,7 +921,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 7.1 features.",
+            "description": "? Nette PHP Generator: generates neat PHP code for you. Supports new PHP 7.1 features.",
             "homepage": "https://nette.org",
             "keywords": [
                 "code",
@@ -933,7 +929,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2018-04-26 16:47:39"
+            "time": "2018-04-26T16:47:39+00:00"
         },
         {
             "name": "nette/reflection",
@@ -997,7 +993,8 @@
                 "nette",
                 "reflection"
             ],
-            "time": "2017-07-11 19:28:57"
+            "abandoned": true,
+            "time": "2017-07-11T19:28:57+00:00"
         },
         {
             "name": "nette/robot-loader",
@@ -1053,7 +1050,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🍀 Nette RobotLoader: high performance and comfortable autoloader that will search and autoload classes within your application.",
+            "description": "? Nette RobotLoader: high performance and comfortable autoloader that will search and autoload classes within your application.",
             "homepage": "https://nette.org",
             "keywords": [
                 "autoload",
@@ -1062,7 +1059,7 @@
                 "nette",
                 "trait"
             ],
-            "time": "2018-08-13 14:19:06"
+            "time": "2018-08-13T14:19:06+00:00"
         },
         {
             "name": "nette/safe-stream",
@@ -1123,7 +1120,7 @@
                 "nette",
                 "safe"
             ],
-            "time": "2017-07-13 18:20:37"
+            "time": "2017-07-13T18:20:37+00:00"
         },
         {
             "name": "nette/security",
@@ -1179,7 +1176,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🔑 Nette Security: provides authentication, authorization and a role-based access control management via ACL (Access Control List)",
+            "description": "? Nette Security: provides authentication, authorization and a role-based access control management via ACL (Access Control List)",
             "homepage": "https://nette.org",
             "keywords": [
                 "Authentication",
@@ -1187,7 +1184,7 @@
                 "authorization",
                 "nette"
             ],
-            "time": "2018-04-02 19:47:47"
+            "time": "2018-04-02T19:47:47+00:00"
         },
         {
             "name": "nette/utils",
@@ -1251,7 +1248,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "description": "? Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
             "homepage": "https://nette.org",
             "keywords": [
                 "array",
@@ -1269,7 +1266,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2018-09-18 10:22:16"
+            "time": "2018-09-18T10:22:16+00:00"
         },
         {
             "name": "tracy/tracy",
@@ -1325,7 +1322,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "😎 Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
+            "description": "? Tracy: the addictive tool to ease debugging PHP code for cool developers. Friendly design, logging, profiler, advanced features like debugging AJAX calls or CLI support. You will love it.",
             "homepage": "https://tracy.nette.org",
             "keywords": [
                 "Xdebug",
@@ -1334,7 +1331,7 @@
                 "nette",
                 "profiler"
             ],
-            "time": "2018-08-13 16:46:17"
+            "time": "2018-08-13T16:46:17+00:00"
         }
     ],
     "packages-dev": [
@@ -1385,7 +1382,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "Nette Tester: enjoyable unit testing in PHP with code coverage reporter. 🍏🍏🍎🍏",
+            "description": "Nette Tester: enjoyable unit testing in PHP with code coverage reporter. ????",
             "homepage": "https://tester.nette.org",
             "keywords": [
                 "Xdebug",
@@ -1398,7 +1395,7 @@
                 "testing",
                 "unit"
             ],
-            "time": "2018-06-07 11:24:40"
+            "time": "2018-06-07T11:24:40+00:00"
         }
     ],
     "aliases": [],
@@ -1412,5 +1409,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "5.6"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
